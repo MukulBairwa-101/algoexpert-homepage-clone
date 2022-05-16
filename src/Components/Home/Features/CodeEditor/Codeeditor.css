@@ -1,0 +1,51 @@
+.btn-editor{
+    margin: 0 15px 0 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 10px 15px;
+    border-radius: 0 0 4px 4px;
+    color:var(--white);
+    background-color: var(--btn-bg);
+
+    font-family: "Open Sans","Helvetica","Arial",sans-serif;
+    line-height: 1.42857143;
+    font-size: 16px;
+    border:none;
+}
+
+.editor-logo-icon{
+    width: 25px;
+    margin: 0 10px 0 0;
+}
+.tab-btn{
+    background-color: #15314b;
+    margin: 0 15px 0 0;
+    border-radius: 0 0 4px 4px;
+    padding: 0 15px;
+    /* height: 100%; */
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    transition: background-color .2s,padding .4s,box-shadow .2s,border .2s;
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    white-space: nowrap;
+    border: none;
+    background-color: #15314b;
+
+
+}
+.svg-editor-btn{
+    width: 25px;
+}
+.ud-arrow{
+    width: 12px;
+    margin: 0 0 0 10px;
+    transition: transform .3s;
+    flex: 0 0 auto;
+}
